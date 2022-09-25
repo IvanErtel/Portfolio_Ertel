@@ -1,0 +1,26 @@
+@import './_animations.scss';
+@import './_variables.scss';
+
+.titulo{
+    .tituloRow{
+        .parrafo{
+            text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+            padding-top: 100px;
+            text-align: center;
+            h1{
+                span:hover{
+                    cursor: pointer;
+                    animation: animar-texto 0.8s ease-in-out 1 normal both;
+                }
+                .espacio{
+                    width: 20px;
+                }
+            }
+            div{
+                p{
+                    font-size: $x-l;
+                }
+            }
+        }
+    }
+}

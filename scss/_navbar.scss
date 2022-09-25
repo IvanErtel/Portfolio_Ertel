@@ -1,0 +1,50 @@
+@import '_animations.scss';
+@import './_reset.scss';
+@import './_variables.scss';
+.containerNav {
+    .rowNav {
+        nav {
+            .divcol {
+                a {
+                    .logonav {
+                        width: 60px;
+                    }
+                }
+
+                .logonav:hover {
+                    animation: saltar 0.4s ease-out 1 normal both;
+                }
+
+                #navbarNavAltMarkup {
+                    .navbar-nav {
+                        .navbarul {
+                            padding: 10px;
+                            width: 600px;
+                        }
+
+                        a {
+                            margin-top: 5px;
+                            margin-left: 10px;
+                            padding: 10px !important;
+                            border-radius: $border-btn;
+                            outline: 1px solid #b719c622;
+                            -webkit-transition-duration: 0.6s !important;
+                            transition-duration: 0.6s !important;
+                            box-shadow: 2px 1.5px 5px $color-primary ;
+                            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
+                            font-size: 16px;
+                            color: black;
+                        }
+
+                        a:hover {
+                            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+                            background-color: $color-primary;
+                            color: white;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
