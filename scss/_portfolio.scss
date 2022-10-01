@@ -1,0 +1,21 @@
+// @import './_reset.scss';
+@import './_tittleAnimation.scss';
+@import './_reset.scss';
+@import './_CardPortfolio.scss';
+
+.parrafo{
+    .titulo{
+        text-shadow: map-get($colors, "sobraText");
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: $font-tittle;
+        text-align: center;
+        span:hover{
+            cursor: pointer;
+            animation: animar-texto 0.8s ease-in-out 1 normal both;
+        }
+        .espacio{
+            width: 20px;
+        }
+    }
+}

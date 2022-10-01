@@ -1,21 +1,21 @@
 @import './_animations.scss';
 @import './_variables.scss';
 
-.titulo{
+.divTitulo{
     .tituloRow{
-        .parrafo{
-            text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+        .parrafoHome{
+            text-shadow: $sombra-texto;
             padding-top: 100px;
             text-align: center;
-            h1{
-                span:hover{
-                    cursor: pointer;
-                    animation: animar-texto 0.8s ease-in-out 1 normal both;
-                }
-                .espacio{
-                    width: 20px;
-                }
+            .tituloHome{
+                font-size: $font-tittle;
+                .spanHome{
+                    &:hover{
+                        cursor: pointer;
+                        animation: animar-texto 0.8s ease-in-out 1 normal both;
+                    }
             }
+           }
             div{
                 p{
                     font-size: $x-l;

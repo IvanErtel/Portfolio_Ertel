@@ -3,11 +3,11 @@
 
 .divFooter{
     footer{
-        margin-top: 15px;
+        margin-top: 25px;
         .footerDentro{
             .divcolor{
                 width: 800px;
-                background-color: $color-primary;
+                background-color: map-get($colors, "primario") ;
                 height: 2px;
             }
             .seccion-footer{

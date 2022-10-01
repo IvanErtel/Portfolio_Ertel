@@ -1,0 +1,28 @@
+@import './_animations.scss';
+@import './_mixins.scss';
+.mainPortfolio{
+    .rowPortfolio{
+        .cardUno{
+            .cardPortfolio{
+                padding: 3px ;
+                width: 330px;
+                height: 430px;
+                border-radius: 8px;
+                box-shadow: map-get($colors,"sombraCard");
+                overflow: hidden;
+                margin: 20px;
+                text-align: center;
+                transition: all 0.25s;
+                .card-img-top{
+                    margin-bottom: 10px auto;
+                }
+                .card-img-topJS{
+                    margin-top: 10px;
+                }
+            }
+            .cardPortfolio:hover{
+                @include cardHover;
+            }
+        }
+    }
+}

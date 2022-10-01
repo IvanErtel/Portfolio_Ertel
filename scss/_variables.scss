@@ -1,3 +1,16 @@
-$color-primary: #b719c6;
 $border-btn: 2em;
 $x-l: x-large;
+$sombra-texto: 0 0 5px rgba(0, 0, 0, .5);
+$font-tittle: 40px;
+$colors:(
+    "primario": #b719c6,
+    "sobraText": 0 0 5px rgba(0, 0, 0, .5),
+    "sombraCard":2px 2px 2px rgba(183, 25, 198, 0.3),
+    "sombraHover":0 12px 16px rgba(183, 25, 198, 0.2),
+    "circulo1": rgba(255, 0, 0, 0.5),
+    "circulo2": rgba(128, 163, 0, 0.5),
+    "circulo3": rgba(0, 134, 237, 0.5),
+    "circulo4": rgba(176, 9, 123, 0.5),
+    "negro": black,
+    "blanco": white,
+)

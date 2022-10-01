@@ -1,0 +1,33 @@
+@import './_animations.scss';
+@import './_tittleAnimation.scss';
+@import './_reset.scss';
+
+.tituloC{
+    .tituloR{
+        .tituloC{
+            .titulo{
+                text-shadow: $sombra-texto;
+                padding-top: 100px;
+                text-align: center;
+                font-size: $font-tittle;
+            }
+            p{
+                text-shadow: $sombra-texto;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                text-align: center; 
+            }
+        }
+    }
+}
+.form{
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: map-get($colors, "sombraCard");
+    transition: all 0.25s;
+    padding: 15px;
+}
+
+.form:hover{
+    box-shadow: map-get($colors, "sombraHover");
+}

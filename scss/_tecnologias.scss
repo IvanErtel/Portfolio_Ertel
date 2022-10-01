@@ -1,0 +1,45 @@
+
+@import './_reset.scss';
+@import './_tittleAnimation.scss';
+
+.sectionTitulo{
+    .sectionh2{
+        text-shadow: $sombra-texto;
+        padding-top: 100px;
+        text-align: center;
+        font-size: $font-tittle;
+        margin-bottom: 20px;
+    }
+    &:hover{
+        cursor: pointer;
+        animation: animar-texto 1s ease-in-out 1 normal both;
+    }
+}
+.divCard{
+    .divRow{
+        .divCol{
+            .divTarjeta{
+                border-radius: 8px;
+                box-shadow: map-get($colors,"sombraCard");
+                transition: all 0.25s;
+                &:hover{
+                    box-shadow:map-get($colors, "sombraHover");
+                }
+                margin: 10px;
+                .card-img-top{
+                    margin-top: 0.5rem;
+                    margin-left: 6.5rem;
+                    width: 50px;
+                }
+                .card-body{
+                    h5{ 
+                        color: map-get($colors, "negro")
+                    }
+                    p{
+                        color: map-get($colors, "negro")
+                    }
+                }
+            }
+        }
+    }
+}
