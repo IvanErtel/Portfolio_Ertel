@@ -1,7 +1,9 @@
 //Animacion de background para todos los html
 @import './_animations.scss';
+@import './_variables.scss';
 
 .animacionFondo{
+    filter: blur(4px);
     position: absolute;
     width: 100%;
     height: 100%;

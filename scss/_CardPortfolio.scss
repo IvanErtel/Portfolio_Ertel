@@ -5,6 +5,7 @@
     .rowPortfolio{
         .cardUno{
             .cardPortfolio{
+                background-color: rgba(230, 230, 230, 0.407);
                 padding: 3px ;
                 width: 330px;
                 height: 430px;
@@ -19,6 +20,28 @@
                 }
                 .card-img-topJS{
                     margin-top: 10px;
+                }
+                .cardBtn{
+                    .btnProyectos{
+                        text-decoration: none;
+                        margin-top: 5px;
+                        margin-left: 10px;
+                        padding: 10px !important;
+                        border-radius: $border-btn;
+                        outline: 1px solid #b719c622;
+                        -webkit-transition-duration: 0.6s !important;
+                        transition-duration: 0.6s !important;
+                        box-shadow: 2px 1.5px 5px map-get($colors, "primario") ;
+                        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
+                        font-size: 16px;
+                        color: map-get($colors, "negro");
+                        
+                        &:hover {
+                            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+                            background-color: map-get($colors, "primario") ;
+                            color: map-get($colors,"blanco");
+                        }
+                    }
                 }
             }
             .cardPortfolio:hover{

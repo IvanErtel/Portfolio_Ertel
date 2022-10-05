@@ -1,17 +1,3 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  font-family: "Kanit", sans-serif;
-}
-
-#grilla {
-  width: 100vw;
-  height: 100vh;
-  font-family: "Kanit", sans-serif;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-
 @-webkit-keyframes saltar {
   from {
     transform: translateY(0) scale(0.7, 1);
@@ -41,7 +27,6 @@
     transform: translateY(-0.2rem) scale(1, 1.08);
   }
 }
-
 @keyframes saltar {
   from {
     transform: translateY(0) scale(0.7, 1);
@@ -122,7 +107,6 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
     bottom: calc(100% + 100px);
     opacity: 0;
   }
@@ -140,295 +124,12 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
-    bottom: calc(100% + 100px);
-    opacity: 0;
-  }
-}
-* {
-  margin: 0%;
-  padding: 0%;
-  font-family: "Kanit", sans-serif;
-}
-
-#grilla {
-  width: 100vw;
-  height: 100vh;
-  font-family: "Kanit", sans-serif;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-
-.containerNav .rowNav nav .divcol a .logonav {
-  width: 60px;
-}
-.containerNav .rowNav nav .divcol .logonav:hover {
-  -webkit-animation: saltar 0.4s ease-out 1 normal both;
-          animation: saltar 0.4s ease-out 1 normal both;
-}
-.containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav .navbarul {
-  padding: 10px;
-  width: 600px;
-}
-.containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav a {
-  margin-top: 5px;
-  margin-left: 10px;
-  padding: 10px !important;
-  border-radius: 2em;
-  outline: 1px solid rgba(183, 25, 198, 0.1333333333);
-  transition-duration: 0.6s !important;
-  box-shadow: 2px 1.5px 5px #b719c6;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
-  font-size: 16px;
-  color: black;
-}
-.containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav a:hover {
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-  background-color: #b719c6;
-  color: white;
-}
-
-@keyframes saltar {
-  from {
-    transform: translateY(0) scale(0.7, 1);
-  }
-  15% {
-    transform: translateY(-0.1rem) scale(0.9, 1);
-  }
-  35% {
-    transform: translateY(-0.2rem) scale(1, 1.05);
-  }
-  45% {
-    transform: translateY(-0.3rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.4rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.5rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.4rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.3rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.2rem) scale(1, 1.08);
-  }
-}
-@keyframes animar-texto {
-  from {
-    transform: scale3d(1, 1, 1);
-  }
-  40% {
-    transform: scale3d(0.75, 1.25, 1);
-    color: #b719c6;
-  }
-  50% {
-    transform: scale3d(1.15, 0.85, 1);
-  }
-  65% {
-    transform: scale3d(0.95, 1.05, 1);
-  }
-  75% {
-    transform: scale3d(1.05, 0.95, 1);
-    color: #fff;
-  }
-}
-@keyframes vuelta {
-  from {
-    transform: rotate(0deg);
-    bottom: 0;
-    opacity: 0;
-  }
-  5% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  to {
-    transform: rotate(360deg);
-    bottom: calc(100% + 100px);
-    opacity: 0;
-  }
-}
-.divTitulo .tituloRow .parrafoHome {
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  padding-top: 100px;
-  text-align: center;
-}
-.divTitulo .tituloRow .parrafoHome .tituloHome {
-  font-size: 40px;
-}
-.divTitulo .tituloRow .parrafoHome .tituloHome .spanHome:hover {
-  cursor: pointer;
-  -webkit-animation: animar-texto 0.8s ease-in-out 1 normal both;
-          animation: animar-texto 0.8s ease-in-out 1 normal both;
-}
-.divTitulo .tituloRow .parrafoHome div p {
-  font-size: x-large;
-}
-
-.logoCentral .yo {
-  margin-top: 100px;
-  width: 250px;
-}
-
-@keyframes saltar {
-  from {
-    transform: translateY(0) scale(0.7, 1);
-  }
-  15% {
-    transform: translateY(-0.1rem) scale(0.9, 1);
-  }
-  35% {
-    transform: translateY(-0.2rem) scale(1, 1.05);
-  }
-  45% {
-    transform: translateY(-0.3rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.4rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.5rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.4rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.3rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.2rem) scale(1, 1.08);
-  }
-}
-@keyframes animar-texto {
-  from {
-    transform: scale3d(1, 1, 1);
-  }
-  40% {
-    transform: scale3d(0.75, 1.25, 1);
-    color: #b719c6;
-  }
-  50% {
-    transform: scale3d(1.15, 0.85, 1);
-  }
-  65% {
-    transform: scale3d(0.95, 1.05, 1);
-  }
-  75% {
-    transform: scale3d(1.05, 0.95, 1);
-    color: #fff;
-  }
-}
-@keyframes vuelta {
-  from {
-    transform: rotate(0deg);
-    bottom: 0;
-    opacity: 0;
-  }
-  5% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  to {
-    transform: rotate(360deg);
-    bottom: calc(100% + 100px);
-    opacity: 0;
-  }
-}
-.divFooter footer {
-  margin-top: 25px;
-}
-.divFooter footer .footerDentro .divcolor {
-  width: 800px;
-  background-color: #b719c6;
-  height: 2px;
-}
-.divFooter footer .footerDentro .seccion-footer a img {
-  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin: 10px;
-}
-.divFooter footer .footerDentro .seccion-footer a :hover {
-  -webkit-animation: saltar 0.4s ease-out 1 normal both;
-          animation: saltar 0.4s ease-out 1 normal both;
-}
-
-@keyframes saltar {
-  from {
-    transform: translateY(0) scale(0.7, 1);
-  }
-  15% {
-    transform: translateY(-0.1rem) scale(0.9, 1);
-  }
-  35% {
-    transform: translateY(-0.2rem) scale(1, 1.05);
-  }
-  45% {
-    transform: translateY(-0.3rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.4rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.5rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.4rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.3rem) scale(1, 1.08);
-  }
-  55% {
-    transform: translateY(-0.2rem) scale(1, 1.08);
-  }
-}
-@keyframes animar-texto {
-  from {
-    transform: scale3d(1, 1, 1);
-  }
-  40% {
-    transform: scale3d(0.75, 1.25, 1);
-    color: #b719c6;
-  }
-  50% {
-    transform: scale3d(1.15, 0.85, 1);
-  }
-  65% {
-    transform: scale3d(0.95, 1.05, 1);
-  }
-  75% {
-    transform: scale3d(1.05, 0.95, 1);
-    color: #fff;
-  }
-}
-@keyframes vuelta {
-  from {
-    transform: rotate(0deg);
-    bottom: 0;
-    opacity: 0;
-  }
-  5% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  to {
-    transform: rotate(360deg);
     bottom: calc(100% + 100px);
     opacity: 0;
   }
 }
 .animacionFondo {
+  filter: blur(4px);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -544,7 +245,6 @@
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
-  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -609,7 +309,213 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
+    bottom: calc(100% + 100px);
+    opacity: 0;
+  }
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Kanit", sans-serif;
+}
+
+#grilla {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Kanit", sans-serif;
+  overflow-x: hidden;
+}
+
+.containerNav .rowNav nav .divcol a .logonav {
+  width: 60px;
+}
+.containerNav .rowNav nav .divcol .logonav:hover {
+  -webkit-animation: saltar 0.4s ease-out 1 normal both;
+          animation: saltar 0.4s ease-out 1 normal both;
+}
+.containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav .navbarul {
+  padding: 10px;
+  width: 600px;
+}
+.containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav a {
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 10px !important;
+  border-radius: 2em;
+  outline: 1px solid rgba(183, 25, 198, 0.1333333333);
+  transition-duration: 0.6s !important;
+  box-shadow: 2px 1.5px 5px #b719c6;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
+  font-size: 16px;
+  color: black;
+}
+.containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav a:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  background-color: #b719c6;
+  color: white;
+}
+
+@keyframes saltar {
+  from {
+    transform: translateY(0) scale(0.7, 1);
+  }
+  15% {
+    transform: translateY(-0.1rem) scale(0.9, 1);
+  }
+  35% {
+    transform: translateY(-0.2rem) scale(1, 1.05);
+  }
+  45% {
+    transform: translateY(-0.3rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.4rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.5rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.4rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.3rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.2rem) scale(1, 1.08);
+  }
+}
+@keyframes animar-texto {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+    color: #b719c6;
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+    color: #fff;
+  }
+}
+@keyframes vuelta {
+  from {
+    transform: rotate(0deg);
+    bottom: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  to {
+    bottom: calc(100% + 100px);
+    opacity: 0;
+  }
+}
+.divTitulo .tituloRow .parrafoHome {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding-top: 100px;
+  text-align: center;
+}
+.divTitulo .tituloRow .parrafoHome .tituloHome {
+  font-size: 40px;
+}
+.divTitulo .tituloRow .parrafoHome .tituloHome .spanHome:hover {
+  cursor: pointer;
+  -webkit-animation: animar-texto 0.8s ease-in-out 1 normal both;
+          animation: animar-texto 0.8s ease-in-out 1 normal both;
+}
+.divTitulo .tituloRow .parrafoHome div p {
+  font-size: x-large;
+}
+
+.logoCentral .yo {
+  margin-top: 100px;
+  width: 250px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Kanit", sans-serif;
+}
+
+#grilla {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Kanit", sans-serif;
+  overflow-x: hidden;
+}
+
+@keyframes saltar {
+  from {
+    transform: translateY(0) scale(0.7, 1);
+  }
+  15% {
+    transform: translateY(-0.1rem) scale(0.9, 1);
+  }
+  35% {
+    transform: translateY(-0.2rem) scale(1, 1.05);
+  }
+  45% {
+    transform: translateY(-0.3rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.4rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.5rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.4rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.3rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.2rem) scale(1, 1.08);
+  }
+}
+@keyframes animar-texto {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+    color: #b719c6;
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+    color: #fff;
+  }
+}
+@keyframes vuelta {
+  from {
+    transform: rotate(0deg);
+    bottom: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  to {
     bottom: calc(100% + 100px);
     opacity: 0;
   }
@@ -726,7 +632,6 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
     bottom: calc(100% + 100px);
     opacity: 0;
   }
@@ -758,7 +663,6 @@
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
-  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -823,12 +727,12 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
     bottom: calc(100% + 100px);
     opacity: 0;
   }
 }
 .mainPortfolio .rowPortfolio .cardUno .cardPortfolio {
+  background-color: rgba(230, 230, 230, 0.407);
   padding: 3px;
   width: 330px;
   height: 430px;
@@ -844,6 +748,24 @@
 }
 .mainPortfolio .rowPortfolio .cardUno .cardPortfolio .card-img-topJS {
   margin-top: 10px;
+}
+.mainPortfolio .rowPortfolio .cardUno .cardPortfolio .cardBtn .btnProyectos {
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 10px !important;
+  border-radius: 2em;
+  outline: 1px solid rgba(183, 25, 198, 0.1333333333);
+  transition-duration: 0.6s !important;
+  box-shadow: 2px 1.5px 5px #b719c6;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
+  font-size: 16px;
+  color: black;
+}
+.mainPortfolio .rowPortfolio .cardUno .cardPortfolio .cardBtn .btnProyectos:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  background-color: #b719c6;
+  color: white;
 }
 .mainPortfolio .rowPortfolio .cardUno .cardPortfolio:hover {
   transform: translateY(-5px);
@@ -927,25 +849,24 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
     bottom: calc(100% + 100px);
     opacity: 0;
   }
 }
-.divFooter footer {
-  margin-top: 25px;
+.divFooter {
+  margin-top: 60px;
 }
 .divFooter footer .footerDentro .divcolor {
   width: 800px;
   background-color: #b719c6;
   height: 2px;
 }
-.divFooter footer .footerDentro .seccion-footer a img {
+.divFooter footer .footerDentro .seccion-footer a .logofotter {
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin: 10px;
+  margin: 5px;
 }
 .divFooter footer .footerDentro .seccion-footer a :hover {
   -webkit-animation: saltar 0.4s ease-out 1 normal both;
@@ -1013,7 +934,6 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
     bottom: calc(100% + 100px);
     opacity: 0;
   }
@@ -1028,7 +948,6 @@
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
-  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -1071,12 +990,12 @@
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
-  overflow-y: hidden;
   overflow-x: hidden;
 }
 
 .divTitulo .divRow .titulo {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .divTitulo .divRow .titulo h1 {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -1084,6 +1003,13 @@
 .divTitulo .divRow .divImg .yo {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.divTitulo .divRow .divSobreMi .sobremiParrafo h3 {
+  font-size: 22.2222222222px;
+  display: flex;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 @keyframes saltar {
@@ -1147,7 +1073,6 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
     bottom: calc(100% + 100px);
     opacity: 0;
   }
@@ -1213,7 +1138,6 @@
     opacity: 1;
   }
   to {
-    transform: rotate(360deg);
     bottom: calc(100% + 100px);
     opacity: 0;
   }
@@ -1245,7 +1169,6 @@
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
-  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -1262,8 +1185,16 @@
   text-align: center;
 }
 
+.noticiaForm {
+  margin-top: 50px;
+}
+.noticiaForm h3 {
+  text-align: center;
+  font-size: 22.2222222222px;
+}
+
 .form {
-  margin: 30px;
+  margin-top: 50px;
   border-radius: 8px;
   box-shadow: 2px 2px 2px rgba(183, 25, 198, 0.3);
   transition: all 0.25s;
@@ -1272,4 +1203,89 @@
 
 .form:hover {
   box-shadow: 0 12px 16px rgba(183, 25, 198, 0.2);
+}
+
+@keyframes saltar {
+  from {
+    transform: translateY(0) scale(0.7, 1);
+  }
+  15% {
+    transform: translateY(-0.1rem) scale(0.9, 1);
+  }
+  35% {
+    transform: translateY(-0.2rem) scale(1, 1.05);
+  }
+  45% {
+    transform: translateY(-0.3rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.4rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.5rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.4rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.3rem) scale(1, 1.08);
+  }
+  55% {
+    transform: translateY(-0.2rem) scale(1, 1.08);
+  }
+}
+@keyframes animar-texto {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+    color: #b719c6;
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+    color: #fff;
+  }
+}
+@keyframes vuelta {
+  from {
+    transform: rotate(0deg);
+    bottom: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  to {
+    bottom: calc(100% + 100px);
+    opacity: 0;
+  }
+}
+.divFooter {
+  margin-top: 60px;
+}
+.divFooter footer .footerDentro .divcolor {
+  width: 800px;
+  background-color: #b719c6;
+  height: 2px;
+}
+.divFooter footer .footerDentro .seccion-footer a .logofotter {
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.divFooter footer .footerDentro .seccion-footer a :hover {
+  -webkit-animation: saltar 0.4s ease-out 1 normal both;
+          animation: saltar 0.4s ease-out 1 normal both;
 }
