@@ -1,6 +1,5 @@
 //Scss de pagina tecnologias.html
 @import './_reset.scss';
-@import './_tittleAnimation.scss';
 
 .flip-container{
     padding: 10px;
@@ -94,10 +93,6 @@
         text-align: center;
         font-size: $font-tittle;
         margin-bottom: 20px;
-    }
-    &:hover{
-        cursor: pointer;
-        animation: animar-texto 1s ease-in-out 1 normal both;
     }
 }
 .divCard{

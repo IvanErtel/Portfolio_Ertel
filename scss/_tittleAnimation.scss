@@ -6,35 +6,55 @@
 
 @import './_mixins.scss';
 
-.divTitulo{
+.divTitulo {
     margin-top: 200px;
-    .tituloRow{
-        .parrafoHome{
+
+    .tituloRow {
+        .divyo {
+            .yoHome {
+                margin-left: 150px;
+            }
+        }
+
+        .parrafoHome {
             text-shadow: $sombra-texto;
             padding-top: 100px;
             text-align: center;
-            .tituloHome{
-                .espacio{
+
+            .tituloHome {
+                margin-right: 150px;
+
+                .espacio {
                     margin: 5px;
                 }
+
                 font-size: $font-tittle*1.3;
-                .spanHome{
-                    &:hover{
+
+                .spanHome {
+                    &:hover {
                         cursor: pointer;
                         animation: animar-texto 0.8s ease-in-out 1 normal both;
                     }
+
+                }
             }
-           }
-           .btnHome{
-            text-decoration: none;
-            @include aNavbar;
-            background-color: #b719c6;
-            color: white;
-            &:hover {
-                background-color: map-get($colors, "blanco") ;
-                color: map-get($colors,"negro");
+
+            p {
+                margin-right: 150px;
             }
-           }
+
+            .btnHome {
+                margin-right: 150px;
+                text-decoration: none;
+                @include aNavbar;
+                background-color: #b719c6;
+                color: white;
+
+                &:hover {
+                    background-color: map-get($colors, "blanco");
+                    color: map-get($colors, "negro");
+                }
+            }
         }
     }
 }

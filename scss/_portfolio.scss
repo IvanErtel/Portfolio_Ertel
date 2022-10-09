@@ -6,8 +6,8 @@
 .parrafo{
     .titulo{
         text-shadow: map-get($colors, "sobraText");
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-size: $font-tittle;
         text-align: center;
         &:hover{
