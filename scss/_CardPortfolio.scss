@@ -1,6 +1,7 @@
 //Scss para Cards
 @import './_animations.scss';
 @import './_mixins.scss';
+
 .mainPortfolio{
     .rowPortfolio{
         .cardUno{
@@ -9,10 +10,10 @@
                 padding: 3px ;
                 width: 330px;
                 height: 430px;
-                border-radius: 8px;
+                border-bottom-right-radius: 10%;
                 box-shadow: map-get($colors,"sombraCard");
                 overflow: hidden;
-                margin: 20px;
+                margin: 4px;
                 text-align: center;
                 transition: all 0.25s;
                 .card-img-top{

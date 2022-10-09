@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
     <meta name="description" content="uso tecnologias angular react preprocesador sass y mysql con xampp">
-	<meta name="keywords" content="HTML, CSS, SASS, JAVASCRIPT, REACTJS, MYSQL">
+    <meta name="keywords" content="HTML, CSS, SASS, JAVASCRIPT, REACTJS, MYSQL">
+    <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <!-- LIBRERIAS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -17,31 +20,31 @@
 </head>
 
 <body id="grilla">
-	<!--------- fila de logo + nav ------------->
-	<div class="container containerNav" id="navbar">
-		<div class="row rowNav">
-			<nav class="navbar navbar-expand-lg">
-				<div class="col-12 divcol container-fluid">
-					<a class="navbar-brand " href="../index.html"><img class="logonav" src="../assets/logoIvan2.png"
-							alt=""></a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-						data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-						<div class="col-12 d-flex justify-content-end navbar-nav navbarul btnDesplegable">
-							<a class="nav-link" href="../index.html">Home</a>
-							<a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
-							<a class="nav-link" href="../pages/tecnologias.html">Tecnologias</a>
-							<a class="nav-link" href="../pages/sobreMi.html">Sobre mi</a>
-							<a class="nav-link" href="../pages/contacto.html">Contacto</a>
-						</div>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</div>
+    <!--------- fila de logo + nav ------------->
+    <div class="container containerNav" id="navbar">
+        <div class="row rowNav">
+            <nav class="navbar navbar-expand-lg">
+                <div class="col-12 divcol container-fluid">
+                    <a class="navbar-brand " href="../index.html"><img class="logonav" src="../assets/logoIvan2.webp"
+                            alt="Logo desarrollador web"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="col-12 d-flex justify-content-end navbar-nav navbarul btnDesplegable">
+                            <a class="nav-link" href="../index.html">Home</a>
+                            <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="../pages/tecnologias.html">Tecnologias</a>
+                            <a class="nav-link" href="../pages/sobreMi.html">Sobre mi</a>
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
     <header>
         <!---------- Aqui comienzo a animar el fondo------------ -->
         <div class="animacionFondo">
@@ -68,136 +71,189 @@
     </header>
     <!-------- Cards de Tecnologias-------->
     <main>
-        <div class="container d-flex justify-content-end divCard">
+        <div class="container d-flex justify-content-center divCard">
             <div class="row divRow">
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3  d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX card" style="width: 18rem;">
-                        <img src="../assets/react.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">React js</h5>
-                            <p class="card-text">React es una biblioteca o librería de código abierto que está escrita en JavaScript. Desarrollada por Facebook en el 2013 con la finalidad de facilitar la creación de componentes
-                                 reutilizables e interactivos para las interfaces de usuario.</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/react.webp" class="card-img-top" alt="logo react">
+                            </div>
+                            <div class="dorso">
+                                <p>ReactJs</p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX" style="width: 18rem;">
-                        <img src="../assets/Bootstrap.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap</h5>
-                            <p class="card-text">Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/Bootstrap.webp" class="card-img-top" alt="logo bootstrap">
+                            </div>
+                            <div class="dorso">
+                                <p>Bootstrap</p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX" style="width: 18rem;">
-                        <img src="../assets/css.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">CSS3</h5>
-                            <p class="card-text">existe el código CSS, que unido al código HTML permite darle forma, color, posición (y otras características visuales) a un documento web.</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/css.webp" class="card-img-top" alt="logo css">
+                            </div>
+                            <div class="dorso">
+                                <p>CSS</p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX" style="width: 18rem;">
-                        <img src="../assets/github.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">GitHub</h5>
-                            <p class="card-text">GitHub es una plataforma de alojamiento, propiedad de Microsoft, que ofrece a los desarrolladores la posibilidad de crear repositorios de código y guardarlos en la nube de forma segura, usando un sistema de control de versiones llamado Git.</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/github.webp" class="card-img-top" alt="logo github">
+                            </div>
+                            <div class="dorso">
+                                <p>GitHub
+                                </p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX" style="width: 18rem;">
-                        <img src="../assets/html5.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">HTML5</h5>
-                            <p class="card-text">HTML es el lenguaje con el que se define el contenido de las páginas web. Básicamente se trata de un conjunto de etiquetas que sirven para definir el texto y otros elementos que compondrán una página web, como imágenes, listas, vídeos, etc</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/html5.webp" class="card-img-top" alt="logo html5">
+                            </div>
+                            <div class="dorso">
+                                <p>HTML5
+                                </p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX card" style="width: 18rem;">
-                        <img src="../assets/javascript.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">JavaScript</h5>
-                            <p class="card-text">JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/mysql.webp" class="card-img-top" alt="logo mysql">
+                            </div>
+                            <div class="dorso">
+                                <p>MySQL.
+                                </p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX card" style="width: 18rem;">
-                        <img src="../assets/mysql.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MySQL</h5>
-                            <p class="card-text">MySQL es un sistema de gestión de bases de datos relacionales de código abierto y basado en el lenguaje de consulta estructurado (SQL).</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/php.webp" class="card-img-top" alt="logo php">
+                            </div>
+                            <div class="dorso">
+                                <p>PHP
+                                </p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3  d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX card" style="width: 18rem;">
-                        <img src="../assets/php.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">PHP</h5>
-                            <p class="card-text">PHP es un lenguaje de programación destinado a desarrollar aplicaciones para la web y crear páginas web, favoreciendo la conexión entre los servidores y la interfaz de usuario.</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/angular.webp" class="card-img-top" alt="logo angular">
+                            </div>
+                            <div class="dorso">
+                                <p>Angular
+                                </p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX" style="width: 18rem;">
-                        <img src="../assets/angular.png" class="card-img-top d-flex" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Angular</h5>
-                            <p class="card-text">framework opensource desarrollado por Google para facilitar la creación y programación de aplicaciones web de una sola página, las webs SPA (Single Page Application).</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/Sass.svg" class="card-img-top" alt="logo sass">
+                            </div>
+                            <div class="dorso">
+                                <p>Sass
+                                </p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX card" style="width: 18rem;">
-                        <img src="../assets/Sass.svg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Sass</h5>
-                            <p class="card-text">Sass es un preprocesador CSS mediante el cual podrás escribir código CSS de un modo más eficiente.</p>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/visualstudiocode.webp" class="card-img-top"
+                                    alt="logo visual studio">
+                            </div>
+                            <div class="dorso">
+                                <p>Visual Studio
+                                </p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
-                </div>  
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX card" style="width: 18rem;">
-                        <img src="../assets/visualstudio.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Visual Studio</h5>
-                            <p class="card-text"> entorno de desarrollo integrado (IDE) para Windows y macOS. 
-                                Es compatible con múltiples lenguajes de programación, tales como C++, C#, Visual Basic .NET, F#, Java, Python, Ruby y PHP</p>
+                </div>
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-2 animate__animated animate__flipInX d-flex justify-content-center divCol">
+                    <div class="flip-container">
+                        <div class="cardTop">
+                            <div class="frente">
+                                <img src="../assets/visualstudiocode.webp" class="card-img-top"
+                                    alt="logo visual studio code">
+                            </div>
+                            <div class="dorso">
+                                <p>Visual studio code
+                                </p>
+                                <button class="btnCard">Botón</button>
+                            </div>
                         </div>
                     </div>
-                </div> 
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center divCol">
-                    <div class="card divTarjeta animate__animated animate__flipInX card" style="width: 18rem;">
-                        <img src="../assets/visualstudiocode.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Visua Studio Code</h5>
-                            <p class="card-text">es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web. Incluye soporte para la depuración,
-                                 control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código</p>
-                        </div>
-                    </div>
-                </div>               
-            </div>   
+                </div>
+            </div>
         </div>
     </main>
-	<!--------- inicio de footer -------->
-	<div class="contaniner divFooter">
-		<footer>
-			<div class="contaniner-fluid  footerDentro">
-				<div class="container divcolor"></div>
-				<div class="container d-flex justify-content-center seccion-footer">
-					<a href="https://github.com/IvanErtel"><img class="logofotter" src="../assets/github.png"
-							alt=""></a>
-					<a href="https://www.linkedin.com/in/alan-ivan-ertel/"><img class="logofotter"
-							src="../assets/linkedin.png" alt=""></a>
-				</div>
-			</div>
-		</footer>
-	</div>
+    <!--------- inicio de footer -------->
+    <div class="contaniner divFooter">
+        <footer>
+            <div class="contaniner-fluid fixed-bottom footerDentro">
+                <div class="container divcolor"></div>
+                <div class="container d-flex justify-content-center seccion-footer">
+                    <a href="https://github.com/IvanErtel"><img class="logofotter" src="../assets/github.webp"
+                            alt="logo github"></a>
+                    <a href="https://www.linkedin.com/in/alan-ivan-ertel/"><img class="logofotter"
+                            src="../assets/linkedin.webp" alt="logo linkedin"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
     <!--------- Scripts -------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
