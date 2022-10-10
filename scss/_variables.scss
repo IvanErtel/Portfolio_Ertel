@@ -14,4 +14,12 @@ $colors:(
     "circulo4": rgba(176, 9, 123, 0.5),
     "negro": black,
     "blanco": white,
+);
+
+$breakpoints:(
+    "xsm": 380px,
+    "sm": 540px,
+    "md": 768px,
+    "lg": 1224px,
+    "lgx":1400px,
 )

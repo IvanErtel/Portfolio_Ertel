@@ -4,6 +4,7 @@
 
 .divFooter{
     margin-top: 60px;
+    
     footer{
         .footerDentro{
             .divcolor{
@@ -12,6 +13,8 @@
                 height: 2px;
             }
             .seccion-footer{
+                -webkit-backdrop-filter: blur(15px);
+                backdrop-filter: blur(5px);
                 a{
                     .logofotter{
                         box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);

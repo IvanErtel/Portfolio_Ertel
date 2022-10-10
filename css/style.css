@@ -324,6 +324,9 @@
   font-family: "Kanit", sans-serif;
 }
 
+.containerNav .rowNav nav {
+  text-align: center;
+}
 .containerNav .rowNav nav .divcol a .logonav {
   width: 60px;
 }
@@ -437,6 +440,11 @@
 .divTitulo .tituloRow .divyo .yoHome {
   margin-left: 150px;
 }
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .divyo .yoHome {
+    margin: 0 auto;
+  }
+}
 .divTitulo .tituloRow .parrafoHome {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding-top: 100px;
@@ -445,6 +453,16 @@
 .divTitulo .tituloRow .parrafoHome .tituloHome {
   margin-right: 150px;
   font-size: 52px;
+}
+@media screen and (max-width: 768px) {
+  .divTitulo .tituloRow .parrafoHome .tituloHome {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome .tituloHome {
+    margin: 0 auto;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .tituloHome .espacio {
   margin: 5px;
@@ -456,6 +474,12 @@
 }
 .divTitulo .tituloRow .parrafoHome p {
   margin-right: 150px;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome p {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .btnHome {
   margin-right: 150px;
@@ -478,6 +502,11 @@
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   background-color: #b719c6;
   color: white;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome .btnHome {
+    margin: 0 auto;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .btnHome:hover {
   background-color: white;
@@ -542,6 +571,12 @@
 }
 .flip-container .cardTop .frente img {
   width: 170px;
+}
+@media screen and (max-width: 1400px) {
+  .flip-container .cardTop .frente img {
+    width: 140px;
+    margin: 0 auto;
+  }
 }
 .flip-container .cardTop .frente:hover {
   box-shadow: 0 12px 16px rgba(183, 25, 198, 0.2);
@@ -700,6 +735,11 @@
 .divTitulo .tituloRow .divyo .yoHome {
   margin-left: 150px;
 }
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .divyo .yoHome {
+    margin: 0 auto;
+  }
+}
 .divTitulo .tituloRow .parrafoHome {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding-top: 100px;
@@ -708,6 +748,16 @@
 .divTitulo .tituloRow .parrafoHome .tituloHome {
   margin-right: 150px;
   font-size: 52px;
+}
+@media screen and (max-width: 768px) {
+  .divTitulo .tituloRow .parrafoHome .tituloHome {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome .tituloHome {
+    margin: 0 auto;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .tituloHome .espacio {
   margin: 5px;
@@ -719,6 +769,12 @@
 }
 .divTitulo .tituloRow .parrafoHome p {
   margin-right: 150px;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome p {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .btnHome {
   margin-right: 150px;
@@ -741,6 +797,11 @@
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   background-color: #b719c6;
   color: white;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome .btnHome {
+    margin: 0 auto;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .btnHome:hover {
   background-color: white;
@@ -838,9 +899,6 @@
 }
 .mainPortfolio .rowPortfolio .cardUno .cardPortfolio .card-img-top {
   margin-bottom: 10px auto;
-}
-.mainPortfolio .rowPortfolio .cardUno .cardPortfolio .card-img-topJS {
-  margin-top: 10px;
 }
 .mainPortfolio .rowPortfolio .cardUno .cardPortfolio .cardBtn .btnProyectos {
   text-decoration: none;
@@ -954,6 +1012,10 @@
   background-color: #b719c6;
   height: 2px;
 }
+.divFooter footer .footerDentro .seccion-footer {
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
+}
 .divFooter footer .footerDentro .seccion-footer a .logofotter {
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
   width: 50px;
@@ -1043,6 +1105,9 @@
   font-family: "Kanit", sans-serif;
 }
 
+.containerNav .rowNav nav {
+  text-align: center;
+}
 .containerNav .rowNav nav .divcol a .logonav {
   width: 60px;
 }
@@ -1255,6 +1320,11 @@
 .divTitulo .tituloRow .divyo .yoHome {
   margin-left: 150px;
 }
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .divyo .yoHome {
+    margin: 0 auto;
+  }
+}
 .divTitulo .tituloRow .parrafoHome {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding-top: 100px;
@@ -1263,6 +1333,16 @@
 .divTitulo .tituloRow .parrafoHome .tituloHome {
   margin-right: 150px;
   font-size: 52px;
+}
+@media screen and (max-width: 768px) {
+  .divTitulo .tituloRow .parrafoHome .tituloHome {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome .tituloHome {
+    margin: 0 auto;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .tituloHome .espacio {
   margin: 5px;
@@ -1274,6 +1354,12 @@
 }
 .divTitulo .tituloRow .parrafoHome p {
   margin-right: 150px;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome p {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .btnHome {
   margin-right: 150px;
@@ -1296,6 +1382,11 @@
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   background-color: #b719c6;
   color: white;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo .tituloRow .parrafoHome .btnHome {
+    margin: 0 auto;
+  }
 }
 .divTitulo .tituloRow .parrafoHome .btnHome:hover {
   background-color: white;
@@ -1419,6 +1510,10 @@
   width: 800px;
   background-color: #b719c6;
   height: 2px;
+}
+.divFooter footer .footerDentro .seccion-footer {
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
 }
 .divFooter footer .footerDentro .seccion-footer a .logofotter {
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);

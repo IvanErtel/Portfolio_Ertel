@@ -26,6 +26,10 @@
         .frente{
             img{
                 width: 170px;
+                @include mediaQ(lgx){
+                    width: 140px;
+                    margin: 0 auto;
+                 } 
             }
             border-radius: 8px;
             backdrop-filter: blur(2px);

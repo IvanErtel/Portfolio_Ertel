@@ -1,9 +1,7 @@
 //animacion de H1
 @import './_animations.scss';
 @import './_variables.scss';
-
 @import './_reset.scss';
-
 @import './_mixins.scss';
 
 .divTitulo {
@@ -13,6 +11,9 @@
         .divyo {
             .yoHome {
                 margin-left: 150px;
+                 @include mediaQ(lg){
+                    margin: 0 auto;
+                 }
             }
         }
 
@@ -20,14 +21,18 @@
             text-shadow: $sombra-texto;
             padding-top: 100px;
             text-align: center;
-
+            
             .tituloHome {
                 margin-right: 150px;
-
+                @include mediaQ(md){
+                    font-size: 1.8em;
+                 }  
+                 @include mediaQ(lg){
+                    margin: 0 auto;
+                 }             
                 .espacio {
                     margin: 5px;
                 }
-
                 font-size: $font-tittle*1.3;
 
                 .spanHome {
@@ -35,21 +40,24 @@
                         cursor: pointer;
                         animation: animar-texto 0.8s ease-in-out 1 normal both;
                     }
-
                 }
             }
-
             p {
                 margin-right: 150px;
+                 @include mediaQ(lg){
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+                 }
             }
-
             .btnHome {
                 margin-right: 150px;
                 text-decoration: none;
                 @include aNavbar;
                 background-color: #b719c6;
                 color: white;
-
+                 @include mediaQ(lg){
+                    margin: 0 auto;
+                 }
                 &:hover {
                     background-color: map-get($colors, "blanco");
                     color: map-get($colors, "negro");

@@ -1,4 +1,6 @@
 //Mixins para uso general
+@import './_variables.scss';
+
 @mixin aNavbar {
     cursor: pointer;
         margin-top: 5px;
@@ -24,4 +26,10 @@
 @mixin cardHover {
     transform: translateY(-5px);
     box-shadow: map-get($colors, "sombraHover");
+}
+
+@mixin mediaQ ($breakpoint){
+    @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
 }
