@@ -3,35 +3,48 @@
 @import './_navbar.scss';
 @import './_reset.scss';
 
+main{
+    @include mediaQ(lg){
+        margin-top: 50px;
+     margin-bottom: 50px;   
+    text-align: center; }
 
-.divTituloSobreMi{
-    margin-top: 30px;
-    .divRow{
-        .titulo{
-            margin-top: 30px;
-            margin-bottom: 50px;
-            h1{
-                text-shadow: map-get($colors, "sobraText");
-            }
+    .divTituloSobreMi{
+        @include mediaQ(lg){
+            margin-top: 30px;   
         }
-        .divImg{
-            .yoSobreMi{
-                margin-top: 50px;
-                margin-bottom: 50px;
-            }
-
-             }
-             .divSobreMi{
-                .sobremiParrafo{
-                    h3{
-                        font-size: calc($font-tittle / 1.8);
-                        display: flex;
-                        text-align: center;
-                        padding-bottom: 50px;
-                        padding-top: 50px;
-                    }
+        .divRow{
+            .titulo{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                h1{
+                    text-shadow: map-get($colors, "sobraText");
                 }
             }
-
+            .divImg{
+                .yoSobreMi{
+                    filter:drop-shadow(6px 2px 15px #b719c6);
+                    width: 250px;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    @include mediaQ(lg){
+                      display: none;
+                     }
+                }
+    
+                 }
+                 .divSobreMi{
+                    .sobremiParrafo{
+                        h3{
+                            font-size: calc($font-tittle / 1.8);
+                            display: flex;
+                            text-align: center;
+                            padding-top: 50px;
+                        }
+                    }
+                }
+    
+        }
     }
 }
+

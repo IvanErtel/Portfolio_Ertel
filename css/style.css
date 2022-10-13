@@ -242,6 +242,7 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
@@ -319,6 +320,7 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
@@ -429,20 +431,30 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
 }
 
 .divTitulo {
-  margin-top: 200px;
+  margin-top: 100px;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo {
+    margin-top: 100px;
+  }
 }
 .divTitulo .tituloRow .divyo .yoHome {
-  margin-left: 150px;
+  filter: drop-shadow(6px 2px 15px #b719c6);
+  width: 350px;
+  margin-bottom: 150px;
+  margin-left: 290px;
 }
 @media screen and (max-width: 1224px) {
   .divTitulo .tituloRow .divyo .yoHome {
     margin: 0 auto;
+    width: 300px;
   }
 }
 .divTitulo .tituloRow .parrafoHome {
@@ -451,6 +463,7 @@
   text-align: center;
 }
 .divTitulo .tituloRow .parrafoHome .tituloHome {
+  margin-top: 100px;
   margin-right: 150px;
   font-size: 52px;
 }
@@ -525,6 +538,7 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
@@ -630,6 +644,7 @@
 
 .divCard {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .divCard .divRow .divCol .divTarjeta {
   border-radius: 8px;
@@ -724,20 +739,30 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
 }
 
 .divTitulo {
-  margin-top: 200px;
+  margin-top: 100px;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo {
+    margin-top: 100px;
+  }
 }
 .divTitulo .tituloRow .divyo .yoHome {
-  margin-left: 150px;
+  filter: drop-shadow(6px 2px 15px #b719c6);
+  width: 350px;
+  margin-bottom: 150px;
+  margin-left: 290px;
 }
 @media screen and (max-width: 1224px) {
   .divTitulo .tituloRow .divyo .yoHome {
     margin: 0 auto;
+    width: 300px;
   }
 }
 .divTitulo .tituloRow .parrafoHome {
@@ -746,6 +771,7 @@
   text-align: center;
 }
 .divTitulo .tituloRow .parrafoHome .tituloHome {
+  margin-top: 100px;
   margin-right: 150px;
   font-size: 52px;
 }
@@ -815,6 +841,7 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
@@ -884,6 +911,9 @@
     bottom: calc(100% + 100px);
     opacity: 0;
   }
+}
+.mainPortfolio .rowPortfolio .cardUno {
+  margin-bottom: 20px;
 }
 .mainPortfolio .rowPortfolio .cardUno .cardPortfolio {
   background-color: rgba(230, 230, 230, 0.407);
@@ -1004,26 +1034,30 @@
     opacity: 0;
   }
 }
-.divFooter {
-  margin-top: 60px;
+@media screen and (max-width: 1224px) {
+  .divFooter {
+    margin-top: 0px;
+    background-color: black;
+  }
 }
-.divFooter footer .footerDentro .divcolor {
+.divFooter .footerDentro .divcolor {
+  margin-top: 10px;
   width: 800px;
   background-color: #b719c6;
   height: 2px;
 }
-.divFooter footer .footerDentro .seccion-footer {
+.divFooter .footerDentro .seccion-footer {
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(5px);
 }
-.divFooter footer .footerDentro .seccion-footer a .logofotter {
+.divFooter .footerDentro .seccion-footer a .logofotter {
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin: 5px;
 }
-.divFooter footer .footerDentro .seccion-footer a :hover {
+.divFooter .footerDentro .seccion-footer a :hover {
   -webkit-animation: saltar 0.4s ease-out 1 normal both;
           animation: saltar 0.4s ease-out 1 normal both;
 }
@@ -1100,6 +1134,7 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
@@ -1145,30 +1180,46 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
 }
 
-.divTituloSobreMi {
-  margin-top: 30px;
+@media screen and (max-width: 1224px) {
+  main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 }
-.divTituloSobreMi .divRow .titulo {
-  margin-top: 30px;
-  margin-bottom: 50px;
+@media screen and (max-width: 1224px) {
+  main .divTituloSobreMi {
+    margin-top: 30px;
+  }
 }
-.divTituloSobreMi .divRow .titulo h1 {
+main .divTituloSobreMi .divRow .titulo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .divTituloSobreMi .divRow .titulo h1 {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-.divTituloSobreMi .divRow .divImg .yoSobreMi {
+main .divTituloSobreMi .divRow .divImg .yoSobreMi {
+  filter: drop-shadow(6px 2px 15px #b719c6);
+  width: 250px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.divTituloSobreMi .divRow .divSobreMi .sobremiParrafo h3 {
+@media screen and (max-width: 1224px) {
+  main .divTituloSobreMi .divRow .divImg .yoSobreMi {
+    display: none;
+  }
+}
+main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo h3 {
   font-size: 22.2222222222px;
   display: flex;
   text-align: center;
-  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -1309,20 +1360,30 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
 }
 
 .divTitulo {
-  margin-top: 200px;
+  margin-top: 100px;
+}
+@media screen and (max-width: 1224px) {
+  .divTitulo {
+    margin-top: 100px;
+  }
 }
 .divTitulo .tituloRow .divyo .yoHome {
-  margin-left: 150px;
+  filter: drop-shadow(6px 2px 15px #b719c6);
+  width: 350px;
+  margin-bottom: 150px;
+  margin-left: 290px;
 }
 @media screen and (max-width: 1224px) {
   .divTitulo .tituloRow .divyo .yoHome {
     margin: 0 auto;
+    width: 300px;
   }
 }
 .divTitulo .tituloRow .parrafoHome {
@@ -1331,6 +1392,7 @@
   text-align: center;
 }
 .divTitulo .tituloRow .parrafoHome .tituloHome {
+  margin-top: 100px;
   margin-right: 150px;
   font-size: 52px;
 }
@@ -1400,6 +1462,7 @@
 }
 
 #grilla {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-family: "Kanit", sans-serif;
@@ -1432,6 +1495,24 @@
   box-shadow: 2px 2px 2px rgba(183, 25, 198, 0.3);
   transition: all 0.25s;
   padding: 15px;
+}
+.form .btnForm {
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 10px !important;
+  border-radius: 2em;
+  outline: 1px solid rgba(183, 25, 198, 0.1333333333);
+  transition-duration: 0.6s !important;
+  box-shadow: 2px 1.5px 5px #b719c6;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
+  font-size: 16px;
+  color: black;
+}
+.form .btnForm:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  background-color: #b719c6;
+  color: white;
 }
 
 .form:hover {
@@ -1503,26 +1584,30 @@
     opacity: 0;
   }
 }
-.divFooter {
-  margin-top: 60px;
+@media screen and (max-width: 1224px) {
+  .divFooter {
+    margin-top: 0px;
+    background-color: black;
+  }
 }
-.divFooter footer .footerDentro .divcolor {
+.divFooter .footerDentro .divcolor {
+  margin-top: 10px;
   width: 800px;
   background-color: #b719c6;
   height: 2px;
 }
-.divFooter footer .footerDentro .seccion-footer {
+.divFooter .footerDentro .seccion-footer {
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(5px);
 }
-.divFooter footer .footerDentro .seccion-footer a .logofotter {
+.divFooter .footerDentro .seccion-footer a .logofotter {
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin: 5px;
 }
-.divFooter footer .footerDentro .seccion-footer a :hover {
+.divFooter .footerDentro .seccion-footer a :hover {
   -webkit-animation: saltar 0.4s ease-out 1 normal both;
           animation: saltar 0.4s ease-out 1 normal both;
 }

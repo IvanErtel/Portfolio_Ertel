@@ -34,6 +34,9 @@
     box-shadow: map-get($colors, "sombraCard");
     transition: all 0.25s;
     padding: 15px;
+    .btnForm{
+        @include btnPrimary;
+    }
 }
 
 .form:hover{

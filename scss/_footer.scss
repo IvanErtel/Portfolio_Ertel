@@ -2,12 +2,19 @@
 @import './_animations.scss';
 @import './_variables.scss';
 
-.divFooter{
-    margin-top: 60px;
-    
-    footer{
+
+    .divFooter{
+        @include mediaQ(lg){
+            margin-top: 0px;
+            background-color: black;
+         } 
+        // margin-top: 10px;
+        // position: absolute;
+        // width: 100%;
+        // bottom: 0;
         .footerDentro{
             .divcolor{
+                margin-top: 10px;
                 width: 800px;
                 background-color: map-get($colors, "primario") ;
                 height: 2px;
@@ -30,4 +37,3 @@
             }
         }
     }
-}

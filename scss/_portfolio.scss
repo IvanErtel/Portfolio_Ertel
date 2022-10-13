@@ -2,7 +2,8 @@
 @import './_tittleAnimation.scss';
 @import './_reset.scss';
 @import './_CardPortfolio.scss';
-  
+
+
 .parrafo{
     .titulo{
         text-shadow: map-get($colors, "sobraText");
@@ -12,10 +13,11 @@
         text-align: center;
         &:hover{
             cursor: pointer;
-            animation: animar-texto 0.8s ease-in-out 1 normal both;
-        }
-        .espacio{
-            width: 20px;
+             animation: animar-texto 0.8s ease-in-out 1 normal both;
+               }
+            .espacio{
+                width: 20px;
+            }
         }
     }
-}
+

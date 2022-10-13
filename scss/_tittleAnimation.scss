@@ -5,24 +5,32 @@
 @import './_mixins.scss';
 
 .divTitulo {
-    margin-top: 200px;
+    margin-top: 100px;
+    @include mediaQ(lg){
+        margin-top: 100px;
 
+     }
     .tituloRow {
-        .divyo {
+        .divyo {          
             .yoHome {
-                margin-left: 150px;
+                filter:drop-shadow(6px 2px 15px #b719c6);
+                width: 350px;
+                margin-bottom: 150px;
+                margin-left: 290px;
                  @include mediaQ(lg){
                     margin: 0 auto;
+                    width: 300px;
                  }
+
             }
         }
-
         .parrafoHome {
             text-shadow: $sombra-texto;
             padding-top: 100px;
             text-align: center;
             
             .tituloHome {
+                margin-top: 100px;
                 margin-right: 150px;
                 @include mediaQ(md){
                     font-size: 1.8em;
