@@ -9,4 +9,7 @@
     width: 100vw;
     height: 100vh;
     font-family: 'Kanit', sans-serif;
+    @include mediaQ(lg){
+    overflow-x: hidden;
+     }
 }

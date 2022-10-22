@@ -6,13 +6,15 @@
     .divFooter{
         @include mediaQ(lg){
             margin-top: 0px;
-            background-color: black;
          } 
-        // margin-top: 10px;
-        // position: absolute;
-        // width: 100%;
-        // bottom: 0;
+
         .footerDentro{
+            @include mediaQ(lg){
+                width: 100%;
+                position: relative;
+                bottom: 0;
+                margin-top: 60px;
+             }
             .divcolor{
                 margin-top: 10px;
                 width: 800px;
@@ -33,7 +35,10 @@
                     :hover{
                         animation: saltar 0.4s ease-out 1 normal both;
                     }
+
                 }
+                
             }
+            
         }
     }
