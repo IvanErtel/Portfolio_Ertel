@@ -942,6 +942,24 @@
     opacity: 0;
   }
 }
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Kanit", sans-serif;
+}
+
+#grilla {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Kanit", sans-serif;
+}
+@media screen and (max-width: 1224px) {
+  #grilla {
+    overflow-x: hidden;
+  }
+}
+
 .mainPortfolio .rowPortfolio .cardUno {
   margin-bottom: 20px;
 }
@@ -1067,6 +1085,7 @@
 @media screen and (max-width: 1224px) {
   .divFooter {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 1224px) {
@@ -1644,6 +1663,7 @@ main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo h3 {
 @media screen and (max-width: 1224px) {
   .divFooter {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 1224px) {

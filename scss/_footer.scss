@@ -6,6 +6,7 @@
     .divFooter{
         @include mediaQ(lg){
             margin-top: 0px;
+            margin-bottom: 0px;
          } 
 
         .footerDentro{
