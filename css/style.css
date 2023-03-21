@@ -497,6 +497,11 @@
   padding: 10px;
   width: 600px;
 }
+.containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav a:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  background-color: #b719c6;
+  color: white;
+}
 .containerNav .rowNav nav {
   text-align: center;
 }
@@ -511,6 +516,13 @@
   padding: 10px;
   width: 600px;
 }
+
+.containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav a:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  background-color: #b719c6;
+  color: white;
+}
+
 main .divTituloSobreMi .divRow .titulo {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -523,7 +535,6 @@ main .divTituloSobreMi .divRow .divImg .yoSobreMi {
   width: 250px;
   margin-top: 50px;
   margin-bottom: 50px;
-  display: none;
 }
 
 main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo h3 {
@@ -544,6 +555,8 @@ main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo h3 {
   margin-right: 150px;
   font-size: 52px;
 }
+
+
 .divTitulo .tituloRow .parrafoHome .btnHome:hover {
   background-color: white;
   color: black;
@@ -577,7 +590,9 @@ main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo h3 {
   margin: 0 auto;
   width: 300px;
   }
- 
+  main .divTituloSobreMi .divRow .divImg .yoSobreMi {
+  display: none;
+  }
   main {
   margin-top: 50px;
   margin-bottom: 50px;
