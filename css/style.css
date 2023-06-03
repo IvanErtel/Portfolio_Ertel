@@ -220,15 +220,18 @@
   color: white;
 }
 
+/* -----------------INICIO SCC FOTO INICIAL TITULO Y CV----------------- */
 
 .divTitulo {
-  margin-top: 100px;
+  margin-top: 50px;
 }
+
 .divTitulo .tituloRow .parrafoHome {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding-top: 100px;
   text-align: center;
 }
+
 .divTitulo .tituloRow .parrafoHome .tituloHome {
   margin-top: 100px;
   margin-right: 150px;
@@ -252,21 +255,40 @@
   background-color: #b719c6;
   color: white;
 }
-.divTitulo .tituloRow .parrafoHome .btnHome:hover {
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-  background-color: #b719c6;
-  color: white;
-}
 
 .divTitulo .tituloRow .parrafoHome .btnHome:hover {
   background-color: white;
   color: black;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.divTitulo .tituloRow .parrafoHome .tituloHome .espacio {
+  margin: 5px;
+}
+
+.divTitulo .tituloRow .parrafoHome .tituloHome .spanHome:hover {
+  cursor: pointer;
+  -webkit-animation: animar-texto 0.8s ease-in-out 1 normal both;
+  animation: animar-texto 0.8s ease-in-out 1 normal both;
+}
+
+.divTitulo .tituloRow .parrafoHome p {
+  margin-right: 150px;
 }
 
 .logoCentral .yo {
   margin-top: 100px;
   width: 250px;
 }
+
+.divTitulo .tituloRow .divyo .yoHome {
+  filter: drop-shadow(6px 2px 15px #b719c6);
+  width: 330px;
+  /* margin-bottom: 250px; */
+  margin-left: 200px;
+}
+
+/* -----------------FIN SCC FOTO INICIAL TITULO Y CV----------------- */
 
 .flip-container {
   padding: 10px;
@@ -385,27 +407,6 @@
 .divCard .divRow .divCol .divTarjeta .card-body p {
   color: black;
 }
-
-
-.divTitulo .tituloRow .parrafoHome .btnHome:hover {
-  background-color: white;
-  color: black;
-}
-.divTitulo .tituloRow .parrafoHome .tituloHome .espacio {
-  margin: 5px;
-}
-.divTitulo .tituloRow .parrafoHome .tituloHome .spanHome:hover {
-  cursor: pointer;
-  -webkit-animation: animar-texto 0.8s ease-in-out 1 normal both;
-          animation: animar-texto 0.8s ease-in-out 1 normal both;
-}
-.divTitulo .tituloRow .parrafoHome p {
-  margin-right: 150px;
-}
-
-.divTitulo {
-  margin-top: 100px;
-}
 .mainPortfolio .rowPortfolio .cardUno {
   margin-bottom: 20px;
 }
@@ -461,6 +462,12 @@
 }
 .parrafo .titulo .espacio {
   width: 20px;
+}
+.fixed-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .divFooter .footerDentro .divcolor {
   margin-top: 10px;
@@ -522,7 +529,6 @@
   background-color: #b719c6;
   color: white;
 }
-
 main .divTituloSobreMi .divRow .titulo {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -539,13 +545,16 @@ main .divTituloSobreMi .divRow .divImg .yoSobreMi {
 main .divTituloSobreMi .divRow .divImg .yoSobreMi {
   display: none;
   }
+  main{
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
 main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo {
   font-size: 17px;
   display: flex;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  background-color: #b719c6;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .noticiaForm h3{
       margin-top: 20px; 
@@ -553,34 +562,6 @@ main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo {
       font-size: 20px;
       padding-left: 15%;
       padding-right: 15%;
-}
-
-.divTitulo .tituloRow .parrafoHome {
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  padding-top: 100px;
-  text-align: center;
-}
-.divTitulo .tituloRow .parrafoHome .tituloHome {
-  margin-top: 100px;
-  margin-right: 150px;
-  font-size: 52px;
-}
-
-
-.divTitulo .tituloRow .parrafoHome .btnHome:hover {
-  background-color: white;
-  color: black;
-}
-.divTitulo .tituloRow .parrafoHome .tituloHome .espacio {
-  margin: 5px;
-}
-.divTitulo .tituloRow .parrafoHome .tituloHome .spanHome:hover {
-  cursor: pointer;
-  -webkit-animation: animar-texto 0.8s ease-in-out 1 normal both;
-          animation: animar-texto 0.8s ease-in-out 1 normal both;
-}
-.divTitulo .tituloRow .parrafoHome p {
-  margin-right: 150px;
 }
 @media screen and (max-width: 1224px) {
   .divFooter {
@@ -593,18 +574,15 @@ main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo {
   bottom: 0;
   margin-top: 60px;
   }
-  .divTitulo {
-  margin-top: 50px;
-  }
-  .divTitulo .tituloRow .divyo .yoHome {
-  margin: 0 auto;
-  width: 300px;
-  }
   main {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
   }
+  .divTitulo .tituloRow .divyo .yoHome {
+    margin: 0 auto;
+    width: 300px;
+    }
   .divTitulo .tituloRow .parrafoHome p {
   margin: 0 auto;
   margin-bottom: 50px;
@@ -616,34 +594,11 @@ main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo {
   overflow-x: hidden;
   }
   }
-  
   @media screen and (max-width: 768px) {
   .divTitulo .tituloRow .parrafoHome .tituloHome {
   font-size: 1.8em;
   }
   }
-  
-  .divTitulo .tituloRow .divyo .yoHome {
-  filter: drop-shadow(6px 2px 15px #b719c6);
-  width: 330px;
-  margin-bottom: 250px;
-  margin-left: 200px;
-  }
-  
-  .divTitulo .tituloRow .parrafoHome .tituloHome .espacio {
-  margin: 5px;
-  }
-  
-  .divTitulo .tituloRow .parrafoHome .tituloHome .spanHome:hover {
-  cursor: pointer;
-  -webkit-animation: animar-texto 0.8s ease-in-out 1 normal both;
-  animation: animar-texto 0.8s ease-in-out 1 normal both;
-  }
-  
-  .divTitulo .tituloRow .parrafoHome p {
-  margin-right: 150px;
-  }
-  
   @media screen and (max-width: 1400px) {
   .flip-container .cardTop .frente img {
   width: 140px;

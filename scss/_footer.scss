@@ -1,48 +1,48 @@
-//Footer para todos los html
-// @import './_animations.scss';
-// @import './_variables.scss';
+// Footer para todos los html
+@import './_animations.scss';
+@import './_variables.scss';
 
 
-//     .divFooter{
-//         @include mediaQ(lg){
-//             margin-top: 0px;
-//             margin-bottom: 0px;
-//          } 
+    .divFooter{
+        @include mediaQ(lg){
+            margin-top: 0px;
+            margin-bottom: 0px;
+         } 
 
-//         .footerDentro{
-//             position: fixed;
-//             bottom: 0;
-//             width: 100%;
-//             @include mediaQ(lg){
-//                 width: 100%;
-//                 position: relative;
-//                 bottom: 0;
-//                 margin-top: 60px;
-//              }
-//             .divcolor{
-//                 margin-top: 10px;
-//                 width: 800px;
-//                 background-color: map-get($colors, "primario") ;
-//                 height: 2px;
-//             }
-//             .seccion-footer{
-//                 -webkit-backdrop-filter: blur(15px);
-//                 backdrop-filter: blur(5px);
-//                 a{
-//                     .logofotter{
-//                         box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
-//                         width: 50px;
-//                         height: 50px;
-//                         border-radius: 50%;
-//                         margin: 5px;
-//                     }
-//                     :hover{
-//                         animation: saltar 0.4s ease-out 1 normal both;
-//                     }
+        .footerDentro{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            @include mediaQ(lg){
+                width: 100%;
+                position: relative;
+                bottom: 0;
+                margin-top: 60px;
+             }
+            .divcolor{
+                margin-top: 10px;
+                width: 800px;
+                background-color: map-get($colors, "primario") ;
+                height: 2px;
+            }
+            .seccion-footer{
+                -webkit-backdrop-filter: blur(15px);
+                backdrop-filter: blur(5px);
+                a{
+                    .logofotter{
+                        box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        margin: 5px;
+                    }
+                    :hover{
+                        animation: saltar 0.4s ease-out 1 normal both;
+                    }
 
-//                 }
+                }
                 
-//             }
+            }
             
-//         }
-//     }
+        }
+    }
