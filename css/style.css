@@ -282,10 +282,10 @@
 }
 
 .divTitulo .tituloRow .divyo .yoHome {
-  filter: drop-shadow(6px 2px 15px #b719c6);
-  width: 330px;
+  filter: drop-shadow(6px 2px 10px #c937d6b6);
+  width: 600px;
   /* margin-bottom: 250px; */
-  margin-left: 200px;
+  margin-left: 50px;
 }
 
 /* -----------------FIN SCC FOTO INICIAL TITULO Y CV----------------- */
