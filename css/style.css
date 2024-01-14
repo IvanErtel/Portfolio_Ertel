@@ -356,6 +356,9 @@
   display: block;
   font-size: 1em;
 }
+.flip-container .cardTop .dorso .p-texto {
+  font-size: 15px;
+}
 .flip-container .cardTop .dorso .btnCard {
   width: 100px;
   margin-top: 5px;
@@ -523,7 +526,21 @@
   padding: 10px;
   width: 600px;
 }
-
+.btnForm{
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px !important;
+    border: none;
+    border-radius: 5px;
+    /* outline: 1px solid #4d19c622; */
+    transition-duration: 0.6s !important;
+    box-shadow: 0px 4px 6px rgba(183, 25, 198, 0.6);    /* text-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important; */
+    font-size: 16px;
+}
+.btnForm:hover {
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
 .containerNav .rowNav nav .divcol #navbarNavAltMarkup .navbar-nav a:hover {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   background-color: #b719c6;
@@ -592,6 +609,9 @@ main .divTituloSobreMi .divRow .divSobreMi .sobremiParrafo {
   }
   #grilla {
   overflow-x: hidden;
+  }
+  .p-texto{
+    font-size: 5;
   }
   }
   @media screen and (max-width: 768px) {
