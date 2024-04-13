@@ -6,42 +6,63 @@
 
 .divTitulo {
     margin-top: 100px;
-    @include mediaQ(lg){
+
+    @include mediaQ(lg) {
         margin-top: 50px;
 
-     }
+    }
+
     .tituloRow {
-        .divyo {          
+        justify-content: center;
+
+        .divyo {
             .yoHome {
-                filter:drop-shadow(6px 2px 15px #b719c6);
-                width: 350px;
-                margin-bottom: 150px;
-                margin-left: 290px;
-                 @include mediaQ(lg){
+                filter: drop-shadow(6px 2px 15px #b719c6);
+                width: 550px;
+                margin-bottom: 100px;
+
+                @include mediaQ(lg) {
                     margin: 0 auto;
+                    margin-bottom: 50px;
                     width: 300px;
-                 }
+                }
+                @include mediaQ(md) {
+                    margin-bottom: 35px;
+                    width: 300px;
+                }
 
             }
         }
+
         .parrafoHome {
-            text-shadow: $sombra-texto;
-            padding-top: 100px;
+            justify-content: center;
             text-align: center;
+            text-shadow: $sombra-texto;
+            margin: 0 auto;
+            padding-top: 100px;
+             
+            @include mediaQ(md) {
+                padding-top: 50px;
+                padding-bottom: 50px;
+             }
             
-            .tituloHome {
+             .tituloHome {
                 margin-top: 100px;
                 margin-right: 150px;
-                @include mediaQ(md){
-                    font-size: 1.8em;
-                 }  
-                 @include mediaQ(lg){
+
+                @include mediaQ(md) {
+                    font-size: 2.8em;
+                }
+
+                @include mediaQ(lg) {
                     margin: 0 auto;
-                 }             
+                }
+
                 .espacio {
                     margin: 5px;
                 }
-                font-size: $font-tittle*1.3;
+
+                font-size: $font-tittle*1.9;
 
                 .spanHome {
                     &:hover {
@@ -50,22 +71,29 @@
                     }
                 }
             }
+
             p {
+                font-size: 1.6rem;
                 margin-right: 150px;
-                 @include mediaQ(lg){
+
+                @include mediaQ(lg) {
+                    font-size: 1rem;
                     margin: 0 auto;
                     margin-bottom: 50px;
-                 }
+                }
             }
+
             .btnHome {
                 margin-right: 150px;
                 text-decoration: none;
                 @include aNavbar;
                 background-color: #b719c6;
                 color: white;
-                 @include mediaQ(lg){
+
+                @include mediaQ(lg) {
                     margin: 0 auto;
-                 }
+                }
+
                 &:hover {
                     background-color: map-get($colors, "blanco");
                     color: map-get($colors, "negro");

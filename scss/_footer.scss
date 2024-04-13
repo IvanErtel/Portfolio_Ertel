@@ -2,47 +2,63 @@
 @import './_animations.scss';
 @import './_variables.scss';
 
+.divFooter {
+    // Establece los márgenes generales del footer para todas las vistas
+    margin-top: 0;
+    margin-bottom: 0;
 
-    .divFooter{
-        @include mediaQ(lg){
-            margin-top: 0px;
-            margin-bottom: 0px;
-         } 
+    // Ajustes para pantallas grandes usando media query para 'lg'
+    @include mediaQ(lg) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
-        .footerDentro{
-            position: fixed;
-            bottom: 0;
+    // Contenedor interno del footer
+    .footerDentro {
+        position: relative; // Usa posición relativa para evitar problemas de desbordamiento
+        bottom: 0;
+        width: 100%; // Asegura que ocupe toda la anchura
+
+        // Ajustes específicos para pantallas grandes
+        @include mediaQ(lg) {
+            position: relative; // Mantiene posición relativa
             width: 100%;
-            @include mediaQ(lg){
-                width: 100%;
-                position: relative;
-                bottom: 0;
-                margin-top: 60px;
-             }
-            .divcolor{
-                margin-top: 10px;
-                width: 800px;
-                background-color: map-get($colors, "primario") ;
-                height: 2px;
-            }
-            .seccion-footer{
-                -webkit-backdrop-filter: blur(15px);
-                backdrop-filter: blur(5px);
-                a{
-                    .logofotter{
-                        box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
-                        width: 50px;
-                        height: 50px;
-                        border-radius: 50%;
-                        margin: 5px;
-                    }
-                    :hover{
-                        animation: saltar 0.4s ease-out 1 normal both;
-                    }
+            margin-top: 60px; // Añade un margen superior para separar del contenido principal
+        }
 
-                }
-                
+        .divcolor {
+            margin-top: 10px;
+            width: 800px; // Ancho fijo podría causar desbordamiento en dispositivos pequeños
+            background-color: map-get($colors, "primario");
+            height: 2px;
+
+            // Ajuste para asegurar que no desborde en dispositivos pequeños
+            @include mediaQ(sm) {
+                width: 100%; // Hacer que el ancho sea dinámico en dispositivos pequeños
             }
-            
+        }
+
+        .seccion-footer {
+            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center; // Centra los enlaces dentro del footer
+            align-items: center;
+            padding: 10px 0; // Añade padding vertical para evitar que los ítems toquen los bordes
+
+            a {
+                .logofotter {
+                    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin: 5px; // Asegura margen para evitar que los elementos se toquen
+                    display: inline-block; // Asegura que el enlace no ocupe todo el ancho
+                }
+                &:hover {
+                    animation: saltar 0.4s ease-out 1 normal both;
+                }
+            }
         }
     }
+}

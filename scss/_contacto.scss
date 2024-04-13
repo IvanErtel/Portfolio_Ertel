@@ -2,43 +2,49 @@
 @import './_animations.scss';
 @import './_tittleAnimation.scss';
 @import './_reset.scss';
+@import './mixins.scss';
 
-.tituloC{
-    .tituloR{
-        .tituloC{
-            .titulo{
+.tituloC {
+    .tituloR {
+        .tituloC {
+            .titulo {
                 text-shadow: $sombra-texto;
                 padding-top: 100px;
                 text-align: center;
                 font-size: $font-tittle;
             }
-            p{
+
+            p {
                 text-shadow: $sombra-texto;
                 padding-top: 5px;
                 padding-bottom: 5px;
-                text-align: center; 
+                text-align: center;
             }
         }
     }
 }
-.noticiaForm{
+
+.noticiaForm {
     margin-top: 50px;
-    h3{
+
+    h3 {
         text-align: center;
         font-size: calc($font-tittle / 1.8)
     }
 }
-.form{
+
+.form {
     margin-top: 50px;
     border-radius: 8px;
     box-shadow: map-get($colors, "sombraCard");
     transition: all 0.25s;
     padding: 15px;
-    .btnForm{
+
+    .btnForm {
         @include btnPrimary;
     }
 }
 
-.form:hover{
+.form:hover {
     box-shadow: map-get($colors, "sombraHover");
 }

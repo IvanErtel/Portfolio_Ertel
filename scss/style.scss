@@ -1,14 +1,18 @@
-@import './_mixins.scss';
 @import './_variables.scss';
-@import './_animacion-fondo.scss';
+@import './_mixins.scss';
 @import './_reset.scss';
-@import './_navbar.scss';
-@import './_tittleAnimation.scss';
-@import './_logo-central.scss';
-@import './_tecnologias.scss';
-@import './_portfolio.scss';
-@import './_sobreMi.scss';
+
+@import './animacion-fondo.scss';
+@import './animations.scss';
+@import './CardPortfolio.scss';
 @import './_contacto.scss';
 @import './_footer.scss';
+@import './_logo-central.scss';
+@import './_navbar.scss';
+@import './_portfolio.scss';
+@import './_sobreMi.scss';
+@import './_tecnologias.scss';
+@import './_tittleAnimation.scss';
+
 
 
